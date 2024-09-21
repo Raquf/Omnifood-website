@@ -55,6 +55,8 @@ Medium: 11px
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
+/* ---------- Basic elements start ---------- */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -73,12 +75,20 @@ body {
   line-height: 1;
 }
 
-.test {
-  color: #fff;
-  background-color: red;
-  font-size: 2rem;
-  /* max-width: 1000px; */
-  max-width: 50rem;
-  padding: 4rem;
-  /* width: 1000px; */
+/* ---------- Basic elements finish ---------- */
+
+/* ---------- Hero section start ---------- */
+
+.hero {
+  width: 130rem;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
+
+.hero-img {
+  width: 100%;
+}
+
+/* ---------- Hero section finish ---------- */
