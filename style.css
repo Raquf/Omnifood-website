@@ -75,16 +75,77 @@ body {
   line-height: 1;
 }
 
+.margin-right-sm {
+  margin-right: 1.6rem;
+}
+
 /* ---------- Basic elements finish ---------- */
 
 /* ---------- Hero section start ---------- */
 
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 9.6rem;
+}
+
 .hero {
-  width: 130rem;
   margin: 0 auto;
+  max-width: 130rem;
 
   display: grid;
+  align-items: center;
+  gap: 9.6rem;
   grid-template-columns: 1fr 1fr;
+}
+
+.heading-primary {
+  color: #333;
+  font-size: 5.2rem;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+  letter-spacing: -0.5px;
+  line-height: 1.05;
+}
+
+.hero-description {
+  font-size: 2rem;
+  margin-bottom: 4.8rem;
+  line-height: 1.5;
+}
+
+.btn:link,
+.btn:visited {
+  border-radius: 9px;
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  transition: all 0.3;
+  text-decoration: none;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  color: #fff;
+  margin-right: 1.6rem;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fdf2e9;
+  /* border: 3px solid #fff; */
+  box-shadow: 0 0 0 3px #fff;
 }
 
 .hero-img {
