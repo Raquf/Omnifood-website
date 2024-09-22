@@ -55,7 +55,9 @@ Medium: 11px
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
-/* ---------- Basic elements start ---------- */
+/*---------------------------------------------------*/
+
+/* ---------- General components start ---------- */
 
 * {
   box-sizing: border-box;
@@ -73,43 +75,6 @@ body {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   line-height: 1;
-}
-
-.margin-right-sm {
-  margin-right: 1.6rem;
-}
-
-/* ---------- Basic elements finish ---------- */
-
-/* ---------- Hero section start ---------- */
-
-.section-hero {
-  background-color: #fdf2e9;
-  padding: 9.6rem;
-}
-
-.hero {
-  align-items: center;
-  display: grid;
-  gap: 9.6rem;
-  grid-template-columns: 1fr 1fr;
-  margin: 0 auto;
-  max-width: 130rem;
-}
-
-.heading-primary {
-  color: #333;
-  font-size: 5.2rem;
-  font-weight: 700;
-  margin-bottom: 3.2rem;
-  letter-spacing: -0.5px;
-  line-height: 1.05;
-}
-
-.hero-description {
-  font-size: 2rem;
-  margin-bottom: 4.8rem;
-  line-height: 1.5;
 }
 
 .btn:link,
@@ -135,6 +100,10 @@ body {
   background-color: #cf711f;
 }
 
+.margin-right-sm {
+  margin-right: 1.6rem;
+}
+
 .btn--outline:link,
 .btn--outline:visited {
   background-color: #fff;
@@ -146,6 +115,61 @@ body {
   background-color: #fdf2e9;
   /* border: 3px solid #fff; */
   box-shadow: 0 0 0 3px #fff;
+}
+
+/* ---------- General components finish ---------- */
+
+/*---------------------------------------------------*/
+
+/* ---------- Header part start ---------- */
+
+.header {
+  align-items: center;
+  background-color: #fdf2e9;
+  display: flex;
+  height: 9.6rem;
+  justify-content: space-between;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 2.2rem;
+}
+/* ---------- Header part finish ---------- */
+
+/*---------------------------------------------------*/
+
+/* ---------- Main part start ---------- */
+
+/* ---------- Hero section start ---------- */
+
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+  align-items: center;
+  display: grid;
+  gap: 9.6rem;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  max-width: 130rem;
+}
+
+.heading-primary {
+  color: #333;
+  font-size: 5.2rem;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+  letter-spacing: -0.5px;
+  line-height: 1.05;
+}
+
+.hero-description {
+  font-size: 2rem;
+  margin-bottom: 4.8rem;
+  line-height: 1.5;
 }
 
 .delivered-meals {
@@ -186,3 +210,4 @@ body {
 }
 
 /* ---------- Hero section finish ---------- */
+/* ---------- Main part finish ---------- */
