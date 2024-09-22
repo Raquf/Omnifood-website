@@ -135,6 +135,45 @@ body {
 .logo {
   height: 2.2rem;
 }
+
+.main-nav {
+}
+
+.main-nav-list {
+  align-items: center;
+  display: flex;
+  gap: 3.2rem;
+  list-style: none;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  color: #333;
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  background-color: #e67e22;
+  border-radius: 9px;
+  color: #fff;
+  padding: 1.2rem 2.4rem;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
+}
+
 /* ---------- Header part finish ---------- */
 
 /*---------------------------------------------------*/
@@ -154,6 +193,7 @@ body {
   gap: 9.6rem;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
+  padding: 0 3.2rem;
   max-width: 130rem;
 }
 
