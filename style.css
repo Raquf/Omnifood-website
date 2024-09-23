@@ -117,6 +117,25 @@ body {
   box-shadow: 0 0 0 3px #fff;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 120rem;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 /* ---------- General components finish ---------- */
 
 /*---------------------------------------------------*/
@@ -134,9 +153,6 @@ body {
 
 .logo {
   height: 2.2rem;
-}
-
-.main-nav {
 }
 
 .main-nav-list {
@@ -250,4 +266,12 @@ body {
 }
 
 /* ---------- Hero section finish ---------- */
+
+/* ---------- How section start ---------- */
+
+.section-how {
+}
+
+/* ---------- How section finish ---------- */
+
 /* ---------- Main part finish ---------- */
